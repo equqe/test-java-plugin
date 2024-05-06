@@ -1,0 +1,11 @@
+name: auth
+main: com.equqe.auth.Plugin
+version: 0.0.1
+api-version: 1.15
+authors: ["equqe"]
+description: create in-game accounts
+commands:
+  register:
+    description: create a new account
+    usage: /<command> <password>
+    aliases: [r]

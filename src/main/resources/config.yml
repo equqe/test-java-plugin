@@ -1,0 +1,8 @@
+# your PostgreSQL credentials
+
+database:
+  ip: localhost
+  port: 5432
+  username: postgres
+  password: 1234
+  database: postgres

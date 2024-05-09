@@ -3,9 +3,13 @@ main: com.equqe.auth.Plugin
 version: 0.0.1
 api-version: 1.15
 authors: ["equqe"]
-description: create in-game accounts
+description: manage in-game accounts
 commands:
   register:
     description: create a new account
     usage: /<command> <password>
     aliases: [r]
+  login:
+    description: sign in to an existing account
+    usage: /<command> <password>
+    aliases: [l]
